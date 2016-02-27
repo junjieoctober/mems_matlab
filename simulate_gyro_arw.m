@@ -2,6 +2,7 @@ function simulate_gyro_arw()
 
 N = 1e5;
 
+
 gyro = zeros(N,1);
 gyro_lpf = zeros(N,1); 
 np   = 1; 
